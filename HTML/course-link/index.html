@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-image: url("img.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .container {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      width: 1475px;
+      margin: 100px auto; 
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px; 
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.8); 
+      color: #fff; 
+    }
+    nav a {
+      text-decoration: none; 
+      color: inherit;
+      padding: 10px;
+    }
+    nav a:hover {
+      color: #ccc; 
+    }
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #ffffff; 
+      grid-column: 1 / -1; 
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5; 
+      color: #ffffff;
+      grid-column: 1 / -1; 
+    }
+    .list-container {
+      grid-column: 1 / -1; 
+    }
+    .list-container ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .list-container ul li {
+      margin-bottom: 10px;
+    }
+    .list-container ul li a {
+      color: #fff9f9;
+      text-decoration: none;
+    }
+    .list-container ul li a:hover {
+      color: rgb(250, 16, 16);
+    }
+    h2 {
+      font-size: 36px;
+      color: #ff6a00; 
+      grid-column: 1 / -1; 
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="container">
+    <h1><b>Welcome</b></h1>
+    <p>This website can help you with giving you some of the links for getting knowledge about some of the courses.</p>
+    <div class="list-container">
+      <h2>Courses</h2>
+      <ul>
+        <li><a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ">JAVA</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLsyeobzWxl7rTMK7N9pFJ4reJS6T4C1i1">Blockchain</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe">AI/ML</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLihwab7Zw-Kx3WwFnH_5YjU0oz1JEKm_-">AR/VR</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLW-zSkCnZ-gBtmXf9AfRbA90GnBv7o2gS">UI/UX</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLy7NrYWoggjwV7qC4kmgbgtFBsqkrsefG">Devops</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLLKT__MCUeiwfK18Io6kvwrrhqQyQnV5W">Cybersecurity</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX">JavaScript</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg">Python</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m">C</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb">C++</a></li>
+        <li><a href="https://youtu.be/7S_tz1z_5bA?si=tukRnAgP9ul9JDi3">SQL</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU">Web Development</a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
